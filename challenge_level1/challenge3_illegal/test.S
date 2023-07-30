@@ -23,7 +23,11 @@ mtvec_handler:
   csrr t0, mcause
   bne t0, t1, fail
   csrr t0, mepc
+
+  addi t0, t0, 0x08
+
   addi t0, t0, 0x04
+
   csrw mepc, t0
   mret
 

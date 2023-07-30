@@ -6,20 +6,9 @@ COMMON_DIR := common
 BIN_DIR := bin
 OBJ_DIR := objdump
 LOG_DIR := log
-
-ISA ?= rv32i
-ABI ?= ilp32
-SPIKE_ISA ?= rv32i
-
-
-ISA ?= rv32i
-ABI ?= ilp32
-SPIKE_ISA ?= rv32i
-
-ISA ?= rv64im
+ISA ?= rv64imafdc
 ABI ?= lp64
-SPIKE_ISA ?= rv64im
-
+SPIKE_ISA ?= rv32i
 INCLUDE_DIRS := common
 CRT_FILE := common/crt.S
 TEMPLATE_FILE := common/templates.S
