@@ -10,6 +10,7 @@ The illegal instruction " .word 0 " takes the code to the handler and the routin
 
 The changes I made:
 
+
 ![changes](image-1.png)
 
 I incremented it to 8 , because the next instruction simply jumps to fail . We dont need that , so we are skipping that
@@ -17,3 +18,6 @@ I incremented it to 8 , because the next instruction simply jumps to fail . We d
 Result:
 
 ![result](image-2.png)
+
+![code_snippet](image.png)
+
