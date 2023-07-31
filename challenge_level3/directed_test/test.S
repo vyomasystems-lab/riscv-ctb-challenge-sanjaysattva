@@ -17,11 +17,13 @@ RVTEST_CODE_BEGIN
   # Arithmetic tests
   #-------------------------------------------------------------
 
-  TEST_RR_OP( 2,  add, 0x00000001, 0x00000001, 0x00000000 );
-  
+  #TEST_RR_OP( 2,  sub, 0x00000001, 0x00000002, 0x00000001 );
+ TEST_BR2_OP_TAKEN( 2, blt, 0x00, 0x01 );
+#TEST_LD_OP( 2, lh, 10, 0x04, 0x00001000 );
   TEST_PASSFAIL
 
 RVTEST_CODE_END
+
 
   .data
 RVTEST_DATA_BEGIN
