@@ -17,7 +17,11 @@ I incremented it to 8 , because the next instruction simply jumps to fail . We d
 
 Result:
 
+
+![result](image-2.png)
+
 ![result](image-2.png)
 
 ![code_snippet](image.png)
+
 

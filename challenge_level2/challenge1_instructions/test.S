@@ -4,7 +4,6 @@
 # Seed: 10628061479079219966
 
 
-
 #include "test_template.S"
 #define TEST_NAME test
 
@@ -54,7 +53,11 @@
 
 #    rel_rv64m: 0
 
+
+#    rel_rv64m: 0
+
 #    rel_rv64m: 10
+
 
 #    rel_rv32a: 0
 #    rel_rv64a: 0
@@ -1334,6 +1337,7 @@ i00000003e5:	fence
 i00000003e6:	fence.i                       
 i00000003e7:	fence                         
 
+
 				li                  t1, 6728  
 				add                 sp, sp, t1
 i0000000000:	li                  x31, 10   
@@ -2490,6 +2494,7 @@ i00000003e5:	and                 t3, s8, t3
 i00000003e6:	auipc               s11, 200610
 i00000003e7:	and                 t3, s7, a5
 i00000003e8:	srl                 s9, t6, s7
+
 
 
 				post_program_macro            
@@ -4556,6 +4561,7 @@ begin_signature:
 	.dword              0x612dd9da31b2b66f
 
 
+
 	.dword              0x504af12c0b095b76
 	.dword              0x1cb77f994ee0bdf3
 	.dword              0x3fa79ddfc015552a
@@ -6604,6 +6610,7 @@ begin_signature:
 	.dword              0x650187ae1ae252de
 	.dword              0x61eecb1bd6a8ecb4
 	.dword              0x7d5fd38bfabc6a10
+
 
 
 
